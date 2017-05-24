@@ -1,5 +1,5 @@
 {
-  "name": "nic/slim3-mustache",
+  "name": "nic-d/slim3-mustache",
   "description": "Allows you to use Mustache in Slim 3.",
   "type": "library",
   "license": "MIT",
