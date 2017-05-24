@@ -21,3 +21,8 @@ $container['view'] = function ($container) {
     return $view;
 };
 ```
+
+You can also fetch the Mustache instance by using:
+```php
+$container->get('view')->getMustache();
+```
