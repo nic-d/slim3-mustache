@@ -6,8 +6,8 @@ Adds support for [MustachePHP](https://github.com/bobthecow/mustache.php) for re
 * [PHP](http://www.php.net/) 5.6 or newer.
 
 ## Install
-```php
-composer require
+```
+composer require nic-d/slim3-mustache
 ```
 
 ## How to use
