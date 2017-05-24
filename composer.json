@@ -1,0 +1,21 @@
+{
+  "name": "nic/slim3-mustache",
+  "description": "Allows you to use Mustache in Slim 3.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "nic",
+      "email": "nic@nybbl.co"
+    }
+  ],
+  "require": {
+    "mustache/mustache": "^2.0",
+    "psr/http-message": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Slim\\Views\\": "src"
+    }
+  }
+}
