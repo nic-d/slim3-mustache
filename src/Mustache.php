@@ -46,11 +46,12 @@ class Mustache
      * @param ResponseInterface $response
      * @param $template
      * @param array $data
-     * @return int
+     * @return ResponseInterface
      */
     public function render(ResponseInterface $response, $template, array $data = [])
     {
-        return $response->getBody()->write($this->fetch($template, $data));
+        $response->getBody()->write($this->fetch($template, $data));
+        return $response;
     }
 
     # ---------------------------------------------------------------
