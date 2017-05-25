@@ -26,3 +26,10 @@ You can also fetch the Mustache instance by using:
 ```php
 $container->get('view')->getMustache();
 ```
+
+## Testing
+PHPUnit 6.0 or greater required.
+
+```
+phpunit
+```
